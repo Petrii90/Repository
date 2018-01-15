@@ -1,0 +1,102 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0; }
+  body header {
+    background: url("../img/header-bg.jpg") no-repeat bottom right;
+    background-size: cover;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+    body header .menu {
+      color: #fff;
+      padding: 1%;
+      display: flex; }
+      body header .menu .menu_logo {
+        display: flex;
+        font-weight: bold;
+        font-size: 22px; }
+        body header .menu .menu_logo .fa {
+          margin: auto;
+          padding-right: 7px;
+          color: rgba(255, 255, 255, 0.8); }
+        body header .menu .menu_logo a {
+          text-decoration: none;
+          color: #fff;
+          margin: auto;
+          font-weight: 900;
+          display: flex; }
+      body header .menu .menu_nav {
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex; }
+        body header .menu .menu_nav .menu_nav_list_btn {
+          display: flex;
+          visibility: collapse; }
+        body header .menu .menu_nav ul {
+          list-style-type: none;
+          display: flex; }
+        body header .menu .menu_nav a {
+          text-decoration: none;
+          color: #eeeeee;
+          font-size: 12px;
+          letter-spacing: 1px;
+          padding: 10px 15px; }
+          body header .menu .menu_nav a:hover {
+            color: #0dad8d; }
+      @media only screen and (max-width: 62em) {
+        body header .menu .menu_logo {
+          padding-left: 1em; } }
+      @media only screen and (max-width: 48em) {
+        body header .menu .menu_nav {
+          position: absolute;
+          top: 0;
+          right: 0; }
+          body header .menu .menu_nav .menu_nav_list_btn {
+            display: flex;
+            visibility: visible;
+            transform: scale(2.5);
+            padding: 1.5em 2em 0 0; }
+          body header .menu .menu_nav ul {
+            visibility: collapse; } }
+    body header .intro {
+      text-align: center;
+      color: #fff;
+      padding: 130px 0 170px; }
+      body header .intro .intro_text {
+        margin: 0 auto; }
+        body header .intro .intro_text h1 {
+          font-size: 60px;
+          text-transform: uppercase;
+          margin-top: 20px;
+          margin-bottom: 0;
+          font-weight: lighter; }
+          body header .intro .intro_text h1 span {
+            font-weight: bold; }
+        body header .intro .intro_text p {
+          font-size: 20px;
+          font-family: 'Open Sans', sans-serif;
+          color: rgba(255, 255, 255, 0.8);
+          margin-top: 0;
+          margin-bottom: 80px; }
+      body header .intro .intro_button {
+        margin: 0 auto; }
+        body header .intro .intro_button .btn {
+          font-family: 'Open Sans', sans-serif;
+          background-color: transparent;
+          color: #fff;
+          text-transform: uppercase;
+          border: 2px solid #fff;
+          padding: 12px 24px;
+          font-size: 16px;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all 0.5s; }
+          body header .intro .intro_button .btn:hover {
+            background-color: #fff;
+            color: #0dad8d; }
+
+/*# sourceMappingURL=style.css.map */
