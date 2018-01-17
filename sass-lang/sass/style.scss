@@ -4,6 +4,7 @@ body{
 	display: block;
 	box-sizing: border-box;
 	margin: 0;
+	color: #777;
 
 header{
 background: url("../img/header-bg.jpg") no-repeat bottom right;
@@ -111,17 +112,122 @@ font-size: 14px;
 	}
 }
 
+}
+
+.section{
+
+	.section_services {
+		padding: 120px 0;
+		text-align: center;
+		margin: 0 auto;
+		transition: all 0.5s;
+
+		.section_container {
+			padding: 0 15px;
+			margin: 0 auto;
+
+
+			.section_title {
+				padding: 0 16px;
+
+				h2 {
+					line-height: 20px;
+					font-size: 32px;
+					font-weight: 700;
+					margin: 0 0 30px;
+					color: #555;
+				}
+			
+			.section_title_underline {
+				hr {
+					height: 3px;
+					width: 60px;
+					text-align: center;
+					background: #0dad8d;
+					border: 0;
+					margin: 10px auto 30px;
+				}
+
+			.section_title_paragraph {
+
+				p {
+					font-family: 'Open Sans', sans-serif;
+					margin: 0 10px;
+				}
+			}	
+			}
+			}
+
+			.section_space {
+				margin-top: 40px;
+				background: black
+			}
+
+			.section_content {
+				display: flex;
+				flex-wrap: wrap;
+				margin: 0 auto;
+			
+
+				.section_content_part {
+					i{
+						font-size: 40px;
+						margin-bottom: 20px;
+						color: #0dbf9b;
+					}
+					h4{
+						font-weight: 700;
+						font-size: 20px;
+						color: #667;
+						margin: 10px 0;
+						line-height: 1.1;
+					}
+					p{
+						font-family: 'Open Sans', sans-serif;
+						margin: 0 0 10px; 
+					}
+				}
+
+			}
+			
+		}
+	}
+
+}
 
 
 }
 
-}
+	@media only screen and (min-width: 992px) {
+		.section{
+			.section_services{
+				.section_container{
+						width: 970px;
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: 992px) {
+		.section{
+			.section_services{
+				.section_container{
+						max-width: 750px;
+				}
+			}
+		}
+	}
+
 
 	@media only screen and (min-width: 48em) {
-			.menu_nav_btn{
-				visibility: collapse;
+		.menu{	
+			.menu_nav{
+				.menu_nav_btn{
+					visibility: hidden;
+					}				
 			}
-}
+		}		
+}			
 
 	@media only screen and (max-width: 62em) {
 			.menu_logo{
@@ -130,6 +236,7 @@ font-size: 14px;
 
 }
 	@media only screen and (max-width: 48em) {
+
 				.accordion-content {
 					display: none;
 					transition: all 400ms;
@@ -161,6 +268,7 @@ font-size: 14px;
 						padding: 0 0.5em;
 						cursor: pointer;
 
+
 						&:hover {
 							background: #0dad8d;
 							color: #fff;
@@ -186,5 +294,8 @@ font-size: 14px;
 
  				}
  			}
+	
+			
+
 	}
 

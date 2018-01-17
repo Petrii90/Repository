@@ -3,7 +3,8 @@ body {
   font-size: 14px;
   display: block;
   box-sizing: border-box;
-  margin: 0; }
+  margin: 0;
+  color: #777; }
   body header {
     background: url("../img/header-bg.jpg") no-repeat bottom right;
     background-size: cover;
@@ -82,10 +83,62 @@ body {
           body header .intro .intro_button .btn:hover {
             background-color: #fff;
             color: #0dad8d; }
+  body .section .section_services {
+    padding: 120px 0;
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.5s; }
+    body .section .section_services .section_container {
+      padding: 0 15px;
+      margin: 0 auto; }
+      body .section .section_services .section_container .section_title {
+        padding: 0 16px; }
+        body .section .section_services .section_container .section_title h2 {
+          line-height: 20px;
+          font-size: 32px;
+          font-weight: 700;
+          margin: 0 0 30px;
+          color: #555; }
+        body .section .section_services .section_container .section_title .section_title_underline hr {
+          height: 3px;
+          width: 60px;
+          text-align: center;
+          background: #0dad8d;
+          border: 0;
+          margin: 10px auto 30px; }
+        body .section .section_services .section_container .section_title .section_title_underline .section_title_paragraph p {
+          font-family: 'Open Sans', sans-serif;
+          margin: 0 10px; }
+      body .section .section_services .section_container .section_space {
+        margin-top: 40px;
+        background: black; }
+      body .section .section_services .section_container .section_content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto; }
+        body .section .section_services .section_container .section_content .section_content_part i {
+          font-size: 40px;
+          margin-bottom: 20px;
+          color: #0dbf9b; }
+        body .section .section_services .section_container .section_content .section_content_part h4 {
+          font-weight: 700;
+          font-size: 20px;
+          color: #667;
+          margin: 10px 0;
+          line-height: 1.1; }
+        body .section .section_services .section_container .section_content .section_content_part p {
+          font-family: 'Open Sans', sans-serif;
+          margin: 0 0 10px; }
 
+@media only screen and (min-width: 992px) {
+  .section .section_services .section_container {
+    width: 970px; } }
+@media only screen and (max-width: 992px) {
+  .section .section_services .section_container {
+    max-width: 750px; } }
 @media only screen and (min-width: 48em) {
-  .menu_nav_btn {
-    visibility: collapse; } }
+  .menu .menu_nav .menu_nav_btn {
+    visibility: hidden; } }
 @media only screen and (max-width: 62em) {
   .menu_logo {
     padding-left: 1em; } }
