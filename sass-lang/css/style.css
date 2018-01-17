@@ -146,11 +146,10 @@ body {
   .menu_logo {
     padding-left: 1em; } }
 @media only screen and (max-width: 48em) {
-  .accordion-content {
-    display: none;
-    transition: all 400ms; }
+  .dropdown-content {
+    display: none; }
 
-  #accordion div:target {
+  .show {
     display: block; }
 
   .menu {
