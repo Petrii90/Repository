@@ -14,11 +14,14 @@ body {
     body header .menu {
       color: #fff;
       padding: 1%;
-      display: flex; }
+      display: flex;
+      position: fixed;
+      width: 100%; }
       body header .menu .menu_logo {
         display: flex;
         font-weight: bold;
-        font-size: 22px; }
+        font-size: 22px;
+        margin-left: 5%; }
         body header .menu .menu_logo .fa {
           margin: auto;
           padding-right: 7px;
@@ -31,8 +34,8 @@ body {
           display: flex; }
       body header .menu .menu_nav {
         text-align: center;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
+        margin-right: 5%;
         display: flex; }
         body header .menu .menu_nav .menu_nav_btn {
           display: flex; }

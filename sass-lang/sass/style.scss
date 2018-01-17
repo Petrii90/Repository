@@ -17,10 +17,13 @@ font-size: 14px;
 	color: #fff;
 	padding: 1%;
 	display: flex;
+	position: fixed;
+	width: 100%;
 		.menu_logo {
 			display: flex;
 			font-weight: bold;
 			font-size: 22px;
+			margin-left: 5%;
 				.fa {
 					margin: auto;
 					padding-right: 7px;
@@ -36,10 +39,10 @@ font-size: 14px;
 			} 	 	
 		.menu_nav {
 			text-align: center;
-			margin-top: auto;
-			margin-bottom: auto;
+			margin: auto;
+			margin-right: 5%;
 			display: flex;
-
+			
 			.menu_nav_btn {
 				display: flex;
 
