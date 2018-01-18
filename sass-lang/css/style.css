@@ -21,7 +21,7 @@ body {
         display: flex;
         font-weight: bold;
         font-size: 22px;
-        margin-left: 5%; }
+        margin-left: 7%; }
         body header .menu .menu_logo .fa {
           margin: auto;
           padding-right: 7px;
@@ -35,7 +35,7 @@ body {
       body header .menu .menu_nav {
         text-align: center;
         margin: auto;
-        margin-right: 5%;
+        margin-right: 7%;
         display: flex; }
         body header .menu .menu_nav .menu_nav_btn {
           display: flex; }
@@ -55,7 +55,8 @@ body {
       color: #fff;
       padding: 130px 0 170px; }
       body header .intro .intro_text {
-        margin: 0 auto; }
+        margin: auto;
+        margin-top: 14%; }
         body header .intro .intro_text h1 {
           font-size: 60px;
           text-transform: uppercase;
@@ -86,58 +87,87 @@ body {
           body header .intro .intro_button .btn:hover {
             background-color: #fff;
             color: #0dad8d; }
-  body .section .section_services {
-    padding: 120px 0;
+  body .section {
     text-align: center;
     margin: 0 auto;
     transition: all 0.5s; }
-    body .section .section_services .section_container {
+    body .section .section_services, body .section .section_portfolio {
+      padding: 120px 0;
+      text-align: center;
+      margin: 0 auto;
+      transition: all 0.5s; }
+    body .section .section_portfolio .section_content .section_content_item {
+      margin-bottom: 30px;
+      background: #fff; }
+      body .section .section_portfolio .section_content .section_content_item .section_hover_bg {
+        height: 170px; }
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg a {
+          text-decoration: none;
+          background-color: transparent; }
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_hover_text {
+          text-align: center;
+          margin: 0 auto;
+          color: #ffffff;
+          background: rgba(0, 0, 0, 0.66);
+          padding-top: 17%;
+          height: 100%;
+          width: 100%; }
+          body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_hover_text h4 {
+            font-size: 20px;
+            color: #ffffff; }
+          body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_hover_text small {
+            font-size: 85%; }
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_img_responsive {
+          max-width: 100%;
+          position: relative;
+          top: -95px; }
+    body .section .section_container {
       padding: 0 15px;
       margin: 0 auto; }
-      body .section .section_services .section_container .section_title {
-        padding: 0 16px; }
-        body .section .section_services .section_container .section_title h2 {
+      body .section .section_container .section_title {
+        padding: 30px 0; }
+        body .section .section_container .section_title h2 {
           line-height: 20px;
           font-size: 32px;
           font-weight: 700;
           margin: 0 0 30px;
           color: #555; }
-        body .section .section_services .section_container .section_title .section_title_underline hr {
+        body .section .section_container .section_title .section_title_underline hr {
           height: 3px;
           width: 60px;
           text-align: center;
           background: #0dad8d;
           border: 0;
           margin: 10px auto 30px; }
-        body .section .section_services .section_container .section_title .section_title_underline .section_title_paragraph p {
+        body .section .section_container .section_title .section_title_underline .section_title_paragraph p {
           font-family: 'Open Sans', sans-serif;
           margin: 0 10px; }
-      body .section .section_services .section_container .section_space {
+      body .section .section_container .section_space {
         margin-top: 40px;
         background: black; }
-      body .section .section_services .section_container .section_content {
+      body .section .section_container .section_content {
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto; }
-        body .section .section_services .section_container .section_content .section_content_part i {
+        body .section .section_container .section_content .section_content_part i {
           font-size: 40px;
           margin-bottom: 20px;
           color: #0dbf9b; }
-        body .section .section_services .section_container .section_content .section_content_part h4 {
+        body .section .section_container .section_content .section_content_part h4 {
           font-weight: 700;
           font-size: 20px;
           color: #667;
           margin: 10px 0;
           line-height: 1.1; }
-        body .section .section_services .section_container .section_content .section_content_part p {
+        body .section .section_container .section_content .section_content_part p {
           font-family: 'Open Sans', sans-serif;
           margin: 0 0 10px; }
 
 @media only screen and (min-width: 992px) {
-  .section .section_services .section_container {
+  .section .section_container {
     width: 970px; } }
 @media only screen and (max-width: 992px) {
-  .section .section_services .section_container {
+  .section .section_container {
     max-width: 750px; } }
 @media only screen and (min-width: 48em) {
   .menu .menu_nav .menu_nav_btn {
