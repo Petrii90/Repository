@@ -3,6 +3,7 @@ body{
 	font-size: 14px;
 	display: block;
 	box-sizing: border-box;
+	line-height: 1.5;
 	margin: 0;
 	color: #777;
 
@@ -135,23 +136,82 @@ font-size: 14px;
 		.section_content {
 			.section_content_item {
 				margin-bottom: 30px;
-				background: #fff;
+				background: #ffffff;
 				.section_hover_bg {
 					height: 170px;
+					background-size: cover;
+					background-position: center;
+				&:hover {
+					.section_hover_text{
+					opacity: 1;
+					}
+				}	
+
+					&_01 {
+					background: url("../img/portfolio/01.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+					&_02 {
+					background: url("../img/portfolio/02.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+					&_03 {
+					background: url("../img/portfolio/03.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+					&_04 {
+					background: url("../img/portfolio/04.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+					&_05 {
+					background: url("../img/portfolio/05.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+					&_06 {
+					background: url("../img/portfolio/06.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+					&_07 {
+					background: url("../img/portfolio/07.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+					&_08 {
+					background: url("../img/portfolio/08.jpg") no-repeat;
+					background-size: inherit;
+					background-position: inherit;
+					height: inherit;
+					}
+
+
 					a{
 						text-decoration: none;
-						background-color: transparent;
-
 					}
 					.section_hover_text{
 						text-align: center;
 						margin: 0 auto;
 						color: #ffffff;
 						background: rgba(0, 0, 0, 0.66);
-						padding-top: 17%;
 						height: 100%;
 						width: 100%;
+						opacity: 0;
+						transition: all 0.5s;
+
 						h4 {
+							padding-top: 17%;
 							font-size: 20px;
 							color: #ffffff;
 						}
@@ -159,11 +219,6 @@ font-size: 14px;
 							font-size: 85%;
 						}
 
-					}
-					.section_img_responsive{						
-						max-width: 100%;
-						position: relative;
-						top: -95px;
 					}
 				}
 			}
@@ -175,7 +230,7 @@ font-size: 14px;
 		.section_container {
 			padding: 0 15px;
 			margin: 0 auto;
-
+			box-sizing: border-box;
 
 			.section_title {
 				padding: 30px 0;
@@ -210,13 +265,11 @@ font-size: 14px;
 
 			.section_space {
 				margin-top: 40px;
-				background: black
 			}
 
 			.section_content {
 				display: flex;
 				flex-wrap: wrap;
-				margin: 0 auto;
 			
 
 				.section_content_part {
@@ -248,7 +301,14 @@ font-size: 14px;
 	@media only screen and (min-width: 992px) {
 		.section{
 				.section_container{
-						width: 970px;
+						max-width: 970px;
+				}
+		}
+	}
+		@media only screen and (min-width: 1200px) {
+		.section{
+				.section_container{
+						max-width: 1170px;
 				}
 		}
 	}

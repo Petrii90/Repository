@@ -1,78 +1,97 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\000031}}
 body {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   display: block;
   box-sizing: border-box;
+  line-height: 1.5;
   margin: 0;
   color: #777; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000310}}
   body header {
     background: url("../img/header-bg.jpg") no-repeat bottom right;
     background-size: cover;
     height: 100%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000317}}
     body header .menu {
       color: #fff;
       padding: 1%;
       display: flex;
       position: fixed;
       width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000323}}
       body header .menu .menu_logo {
         display: flex;
         font-weight: bold;
         font-size: 22px;
         margin-left: 7%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000328}}
         body header .menu .menu_logo .fa {
           margin: auto;
           padding-right: 7px;
           color: rgba(255, 255, 255, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000333}}
         body header .menu .menu_logo a {
           text-decoration: none;
           color: #fff;
           margin: auto;
           font-weight: 900;
           display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000341}}
       body header .menu .menu_nav {
         text-align: center;
         margin: auto;
         margin-right: 7%;
         display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000347}}
         body header .menu .menu_nav .menu_nav_btn {
           display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000352}}
         body header .menu .menu_nav ul {
           list-style-type: none;
           display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000357}}
         body header .menu .menu_nav a {
           text-decoration: none;
           color: #eeeeee;
           font-size: 12px;
           letter-spacing: 1px;
           padding: 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000363}}
           body header .menu .menu_nav a:hover {
             color: #0dad8d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000371}}
     body header .intro {
       text-align: center;
       color: #fff;
       padding: 130px 0 170px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000376}}
       body header .intro .intro_text {
         margin: auto;
         margin-top: 14%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000381}}
         body header .intro .intro_text h1 {
           font-size: 60px;
           text-transform: uppercase;
           margin-top: 20px;
           margin-bottom: 0;
           font-weight: lighter; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000387}}
           body header .intro .intro_text h1 span {
             font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000391}}
         body header .intro .intro_text p {
           font-size: 20px;
           font-family: 'Open Sans', sans-serif;
           color: rgba(255, 255, 255, 0.8);
           margin-top: 0;
           margin-bottom: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\0000399}}
       body header .intro .intro_button {
         margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003101}}
         body header .intro .intro_button .btn {
           font-family: 'Open Sans', sans-serif;
           background-color: transparent;
@@ -84,54 +103,118 @@ body {
           border-radius: 4px;
           cursor: pointer;
           transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003112}}
           body header .intro .intro_button .btn:hover {
             background-color: #fff;
             color: #0dad8d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003122}}
   body .section {
     text-align: center;
     margin: 0 auto;
     transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003127}}
     body .section .section_services, body .section .section_portfolio {
       padding: 120px 0;
       text-align: center;
       margin: 0 auto;
       transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003137}}
     body .section .section_portfolio .section_content .section_content_item {
       margin-bottom: 30px;
-      background: #fff; }
+      background: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003140}}
       body .section .section_portfolio .section_content .section_content_item .section_hover_bg {
-        height: 170px; }
+        height: 170px;
+        background-size: cover;
+        background-position: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003145}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg:hover .section_hover_text {
+          opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003150}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_01 {
+          background: url("../img/portfolio/01.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003156}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_02 {
+          background: url("../img/portfolio/02.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003162}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_03 {
+          background: url("../img/portfolio/03.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003168}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_04 {
+          background: url("../img/portfolio/04.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003174}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_05 {
+          background: url("../img/portfolio/05.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003180}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_06 {
+          background: url("../img/portfolio/06.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003186}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_07 {
+          background: url("../img/portfolio/07.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003192}}
+        body .section .section_portfolio .section_content .section_content_item .section_hover_bg_08 {
+          background: url("../img/portfolio/08.jpg") no-repeat;
+          background-size: inherit;
+          background-position: inherit;
+          height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003200}}
         body .section .section_portfolio .section_content .section_content_item .section_hover_bg a {
-          text-decoration: none;
-          background-color: transparent; }
+          text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003203}}
         body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_hover_text {
           text-align: center;
           margin: 0 auto;
           color: #ffffff;
           background: rgba(0, 0, 0, 0.66);
-          padding-top: 17%;
           height: 100%;
-          width: 100%; }
+          width: 100%;
+          opacity: 0;
+          transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003213}}
           body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_hover_text h4 {
+            padding-top: 17%;
             font-size: 20px;
             color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003218}}
           body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_hover_text small {
             font-size: 85%; }
-        body .section .section_portfolio .section_content .section_content_item .section_hover_bg .section_img_responsive {
-          max-width: 100%;
-          position: relative;
-          top: -95px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003230}}
     body .section .section_container {
       padding: 0 15px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003235}}
       body .section .section_container .section_title {
         padding: 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003238}}
         body .section .section_container .section_title h2 {
           line-height: 20px;
           font-size: 32px;
           font-weight: 700;
           margin: 0 0 30px;
           color: #555; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003247}}
         body .section .section_container .section_title .section_title_underline hr {
           height: 3px;
           width: 60px;
@@ -139,55 +222,72 @@ body {
           background: #0dad8d;
           border: 0;
           margin: 10px auto 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003258}}
         body .section .section_container .section_title .section_title_underline .section_title_paragraph p {
           font-family: 'Open Sans', sans-serif;
           margin: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003266}}
       body .section .section_container .section_space {
-        margin-top: 40px;
-        background: black; }
+        margin-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003270}}
       body .section .section_container .section_content {
         display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto; }
+        flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003276}}
         body .section .section_container .section_content .section_content_part i {
           font-size: 40px;
           margin-bottom: 20px;
           color: #0dbf9b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003281}}
         body .section .section_container .section_content .section_content_part h4 {
           font-weight: 700;
           font-size: 20px;
           color: #667;
           margin: 10px 0;
           line-height: 1.1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003288}}
         body .section .section_container .section_content .section_content_part p {
           font-family: 'Open Sans', sans-serif;
           margin: 0 0 10px; }
 
 @media only screen and (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003303}}
   .section .section_container {
-    width: 970px; } }
+    max-width: 970px; } }
+@media only screen and (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003310}}
+  .section .section_container {
+    max-width: 1170px; } }
 @media only screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003318}}
   .section .section_container {
     max-width: 750px; } }
 @media only screen and (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003328}}
   .menu .menu_nav .menu_nav_btn {
     visibility: hidden; } }
 @media only screen and (max-width: 62em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003336}}
   .menu_logo {
     padding-left: 1em; } }
 @media only screen and (max-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003342}}
   .dropdown-content {
     display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003345}}
   .show {
     display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003347}}
   .menu {
     margin: 0 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003350}}
     .menu .menu_logo {
       margin-right: auto;
       padding-bottom: 0;
       height: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003356}}
     .menu .menu_nav .menu_nav_btn {
       margin: auto;
       color: rgba(255, 255, 255, 0.8);
@@ -196,10 +296,12 @@ body {
       font-size: 27px;
       padding: 0 0.5em;
       cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003366}}
       .menu .menu_nav .menu_nav_btn:hover {
         background: #0dad8d;
         color: #fff;
         cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Adrian\/Desktop\/sass-lang\/sass\/style\.scss}line{font-family:\00003375}}
     .menu .menu_nav .menu_nav_list {
       position: absolute;
       top: 4em;
